@@ -12,6 +12,8 @@ int TotalLessEle(int matrix[200][200],int r,int c,int target)
         int lb = 0 ;
         int ub = c-1;
         int mid ;
+        // to count total no. of eleents less than the targeted median we are using 
+        // binary search 
         while(lb<=ub)
         {
             mid = lb+(ub-lb)/2 ;
